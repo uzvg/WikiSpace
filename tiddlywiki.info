@@ -3,7 +3,12 @@
     "plugins": [
         "tiddlywiki/tiddlyweb",
         "tiddlywiki/filesystem",
-        "tiddlywiki/highlight"
+        "tiddlywiki/highlight",
+        "tiddlywiki/codemirror",
+        "tiddlywiki/codemirror-autocomplete",
+        "tiddlywiki/codemirror-closebrackets",
+        "tiddlywiki/codemirror-closetag",
+        "tiddlywiki/codemirror-trailingspace"
     ],
     "themes": [
         "tiddlywiki/vanilla",
@@ -12,10 +17,11 @@
     ],
     "build": {
         "index": [
-            "--render",
-            "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
-            "index.html",
-            "text/plain"
+            "--setfield","[[$:/config/uzvg/publishFilter]]","tags","$:/config/uzvg/RenderTemplate","text/plain",
+            "--setfield","[[$:/theme]]","text","$:/config/uzvg/theme/readonly", "text/plain",
+            "--render","$:/plugins/tiddlywiki/tiddlyweb/save/offline","index.html","text/plain",
+            "--setfield","[[$:/theme]]","text","$:/config/uzvg/theme/normal","text/plain",
+            "--setfield","[[$:/config/uzvg/publishFilter]]","tags","","text/plain"
         ],
         "static": [
             "--render",
