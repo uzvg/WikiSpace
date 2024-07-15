@@ -1,0 +1,33 @@
+created: 20231225042047390
+modified: 20240302022941533
+tags: uzvg
+title: DashBoard Of The Site
+
+\define tiddlerCount(tiddlerFilter)
+<$count filter=<<__tiddlerFilter__>>/>
+\end
+
+\define fileCount(fileType,tiddlerFilter)
+!! All <$macrocall $name="tiddlerCount" tiddlerFilter=<<__tiddlerFilter__>> /> $fileType$s in the system
+
+<$list filter=<<__tiddlerFilter__>>/>
+
+\end
+
+<<fileCount stylesheet "[tag[$:/tags/Stylesheet]]">>
+
+<<fileCount Macro "[tag[$:/tags/Macro]]">>
+
+<<fileCount image "[tag[$:/tags/Image]]">>
+
+<<fileCount human "[tag[person]]">>
+
+<<fileCount non-system "[![system]]">>
+
+<<fileCount shadow "[all[shadow]]">>
+
+
+
+<<tiddlerCount "[all[tiddlers]]">>
+
+<<tiddlerCount tiddlerFilter:"[all[tiddlers]]">>

@@ -1,0 +1,6 @@
+created: 20240711053240310
+modified: 20240711053330982
+tags: issue
+title: gnome screenshot
+
+gnome 默认的截图工具简直是个傻逼，产生的图片文件名中带有空格，好的不学，坏的学一堆。

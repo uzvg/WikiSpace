@@ -1,0 +1,38 @@
+created: 20240705051547826
+modified: 20240706033339447
+tags: Journal
+title: 5th July 2024
+
+!! Just tired of all kinds of blog frameworks
+ 
+SO I returned to tiddlywiki again.
+
+[[swap capslock and esc key in windows]]
+
+!! Ideas
+
+* [[Host images on Aliyun-OSS]]
+
+今天把coffeeweekly的图片移到了阿里云OSS中，前置链接如下：
+
+https://imagehost-tiddlywiki.oss-cn-shanghai.aliyuncs.com/uzvg
+
+!! 今天做的事
+
+* 博客相关
+
+** [[开通了阿里云oss，并配置好了picgo，可以方便地上传图片|Host images on Aliyun-OSS]]
+
+** 把figurebed跟picx-image-host仓库的图片整理到阿里云oss，经明天核实后可以放心地删除这两个仓库
+
+** 把之前博客的文章整理到tiddlywiki
+*** [[学习正则表达式]]
+*** [[ArchLinux下Gnome桌面NVIDIA显卡开启Wayland]]
+*** [[zsh及bash中“$*”跟“$@”的区别]]
+
+!! 明天要做的事
+* [[我的tiddlywiki站点配置清单]]
+* 在tiddlywiki中定制好每日journal模板
+* 在tiddlywiki中添加backlinks
+* 在sidebar中添加contents列表
+* 添加 `powered by tiddlywiki` banner and copyright footer.

@@ -1,0 +1,6 @@
+created: 20240101152459320
+modified: 20240101152643958
+tags: widget
+title: view widget practice
+
+Created: <$view field="created" format="date" template={{$:/language/Tiddler/DateFormat}}/>

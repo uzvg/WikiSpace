@@ -1,0 +1,17 @@
+created: 20231223063803801
+modified: 20231223064329642
+revision: 0
+tags: $:/tags/Stylesheet
+title: $:/uzvg/stylesheets/ButtonAutoHide.css
+type: text/vnd.tiddlywiki
+
+.tc-tiddler-frame .tc-titlebar button{
+    opacity:0;
+    transition:opacity .5s ease-in-out
+}
+
+.tc-tiddler-frame:hover .tc-titlebar button{
+    zoom:1;
+    filter:alpha(opacity=100);
+    opacity:1
+}

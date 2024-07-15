@@ -1,0 +1,56 @@
+created: 20240705112913281
+modified: 20240707075438931
+tags: tiddlywiki idea blog
+title: 我的tiddlywiki站点配置清单
+type: 
+
+* 评论系统⏹️
+** giscus，但为tiddlywiki提供的插件有问题，可以借鉴tiddlywiki cpl的实现方式
+
+* 图床设置⏹️
+** 阿里云oss上传插件
+
+* 隐私加密✅
+
+*  图片插入✅
+** 指定大小✅
+** 指定对齐方式✅
+
+* 图片的批处理，批量替换外置图片的前置链接✅
+** 👉[[tw-commander|https://github.com/kookma/TW-Commander]]✅
+** 昨天手动更新了一些external image 的前置链接，不想再干第二次了。
+
+* tiddler的backlinks，查看所在tiddler的反向链接
+
+* rename all related tiddlers after modify tiddler tittle✅
+** [[tw5-relink|https://github.com/flibbles/tw5-relink]]✅
+
+* Journal template✅
+** 可以直接在info tab中定制✅
+
+* 方便、快捷地编辑、浏览、关闭tiddler✅
+** 👉类似于vim的插件：https://github.com/MaxGyver83/tw5-keyboard-navigation
+
+* Contents✅
+** tiddlywiki
+** linux
+** windows
+** ideas
+
+* 自动加密
+** 自动加密journal跟public为false的tiddler
+
+* Appearace Tweaks
+** Round tiddler corner
+** autohide tiddler edit button 
+
+* 用自定义的fitler生成index.html
+** 一种方式是修改生成index.html的filter所在的配置文件，该文件的位置是：`$:/plugins/tiddlywiki/tiddlyweb/save/offline`
+** 另一种方式是重新建立一个配置文件，在里面定义好想要的筛选器，然后在tiddlywiki.info中添加一个新的参数。
+
+---
+<ul>
+<$list filter="[all[current]backlinks[]]">
+  <li><$link /></li>
+</$list>
+</ul>

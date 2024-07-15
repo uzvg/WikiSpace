@@ -1,0 +1,11 @@
+created: 20240110065340537
+modified: 20240712115954149
+tags: $:/tags/Macro
+title: $:/uzvg/Macros/Music
+
+\define music(songId autoplay=1 width=80%)
+<div align="center"; >
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=$width$ height=86 src="//music.163.com/outchain/player?type=2&id=$songId$&auto=$autoplay$&height=66"></iframe>
+</div>
+
+\end

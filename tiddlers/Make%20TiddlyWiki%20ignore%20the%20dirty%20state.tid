@@ -1,0 +1,10 @@
+created: 20240707170758580
+modified: 20240707171131699
+source: https://talk.tiddlywiki.org/t/make-tiddlywiki-ignore-the-dirty-state/664
+tags: tiddlywiki
+title: Make TiddlyWiki ignore the dirty state
+
+disable the "leave site" notification when close tab
+
+{{!!source}}
+

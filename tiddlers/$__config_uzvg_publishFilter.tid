@@ -1,0 +1,5 @@
+title: $:/config/uzvg/publishFilter
+
+\define publishFilter()
+-[prefix[$:/plugins]] -[publish[false]]
+\end

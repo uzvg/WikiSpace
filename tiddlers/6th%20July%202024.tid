@@ -1,0 +1,20 @@
+created: 20240705170642804
+modified: 20240706031907933
+tags: Journal
+title: 6th July 2024
+
+!! Daily logs
+
+* 昨天晚上吃的螺蛳粉，吃的时候就着洋葱，睡前没刷牙，结果早上起来的时候嗓子疼，感觉自己慢性咽炎又要犯了。
+
+!! To do list
+
+* tiddlywiki journal template
+* [[tiddlywiki rename all other tiddlers|https://github.com/flibbles/tw5-relink]]
+** [[我的tiddlywiki站点配置清单]] 
+* 
+<ul>
+<$list filter="[all[current]backlinks[]]">
+  <li><$link /></li>
+</$list>
+</ul>

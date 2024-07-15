@@ -1,0 +1,12 @@
+created: 20240708190832375
+modified: 20240709021706206
+tags: Journal
+title: 9th July 2024
+
+!! Daily logs
+
+* 今天认真看了一下soren bjorstad的zettelkasten，真的是叹为观止，我认为这是目前最标准，最能发挥出tiddlywiki实力的笔记系统。
+* 我自己也写了一个publish this tiddler的按钮，可以将当前tiddler的publish的value设为true或false，再搭配上之前的构建方案，就可以很方便地过滤掉不想被生成成index.html文件中的tiddler。
+* 现在还有的问题就是如何方便地把读书笔记用zettelkasten的方式组织起来，并且很好地管理起来。
+* 珈瑜发在酷安上秀恩爱的贴子火了，一堆人在底下评论，还有很多人扒了我俩以前在酷安的动态，哈哈哈，就羡慕死他们。
+* 以前看了好几遍的[[tiddlywiki wikification]]，昨天晚上睡觉前翻了翻groktiddlywiki，一下子就反应过来，明白了，也顺带着明白了transclude组件跟文本替换。

@@ -1,0 +1,39 @@
+created: 20240709022643999
+modified: 20240715105538942
+status: pending
+tags: tiddlywiki
+title: tiddlywiki的文本替换
+type: text/vnd.tiddlywiki
+
+!! 什么是文本替换？
+
+文本替换跟转录的不同：
+
+> The key difference between substitution and transclusion is that substitution occurs before WikiText parsing. This means that you can use substitution to build WikiText constructions. Transclusions are processed independently, and cannot be combined with adjacent text to define WikiText constructions.
+
+
+> when we call a macro, TiddlyWiki first goes in and replaces all of the values with the parameters of the macro via text substitution, then in an entirely separate step it starts deciding how to render the wikitext that comes out of the macro (in this case, as part of a $list widget). By the time it gets to evaluating the filter in the $list widget, it only has a single chunk of wikitext, and it has no way of telling whether the ]] was originally part of a macro parameter (and thus intended to be matched to a value in the participants field) or whether it was part of the macro body (and thus intended to mark the end of the filter run).
+
+tiddlywiki中的文本替换，指的是
+tiddlywiki的文本替换这一机制出现于用于处理tiddlywiki中的宏替换，被传递给宏的参数会直接替换到宏文本块中的占位符。
+
+处理宏的方式：
+ when we call a macro, TiddlyWiki first goes in and replaces all of the values with the parameters of the macro via text substitution, then in an entirely separate step it starts deciding how to render the wikitext that comes out of the macro
+
+也就是说，tiddlywiki处理宏的方式是：
+
+* 第一步： 用文本替换的方式处理宏调用，将宏中的文本占位符全部用参数替换
+* 第二步： 把宏替换产生的文本当作wikitext来渲染。
+
+作者举了一个例子来说明文本替换的例子：
+
+```bash
+{{ {{!!manager}}!!phone }}
+```
+
+这种写法并不会得到manager的phone，因为tiddlywiki不会把`{{}}`中间的文本当成wikitext来处理，而是当做纯文本的方式来处理，也就是说，该写法真正表达的意思是：取得`{{!!manager}}`的`phone`字段值。
+
+In other words, text substitution resulted in a single chunk of valid wikitext, which meant TiddlyWiki could understand what we were asking for.
+
+不要用文本替换的方式而是用类似变量的方式来处理宏调用：
+

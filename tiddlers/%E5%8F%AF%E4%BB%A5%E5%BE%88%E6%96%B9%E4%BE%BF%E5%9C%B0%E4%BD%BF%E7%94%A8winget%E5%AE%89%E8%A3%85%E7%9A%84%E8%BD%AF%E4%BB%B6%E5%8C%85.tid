@@ -1,0 +1,16 @@
+created: 20240705042222114
+modified: 20240705044748292
+tags: windows winget
+title: 可以很方便地使用winget安装的软件包
+
+* git
+* goldendict-ng
+* yazi
+* code
+* neovim
+* nekoray
+* gdu
+* chezmoi
+* sharpkeys
+
+以上软件可以直接在powershell中安装并使用。

@@ -1,0 +1,15 @@
+created: 20240715105338677
+modified: 20240715110010873
+tags: navigation
+title: Pending tiddlers
+type: text/vnd.tiddlywiki
+
+<ol>
+<$list filter="[status[pending]]">
+	<li>
+		<$link to=<<currentTiddler>>><<currentTiddler>></$link>
+	</li>
+</$list>
+</ol>
+
+<$checkbox listField="status" checked="green" unchecked="red" default="green"> Is "green" in colors?</$checkbox><br />''colors:'' {{!!colors}}

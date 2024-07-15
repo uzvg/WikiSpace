@@ -1,0 +1,15 @@
+created: 20240705044758498
+modified: 20240705052707099
+tags: windows sharpkeys
+title: swap capslock and esc key in windows
+
+Install `sharpkeys` with winget command.
+
+```pwsh
+winget install XPFFCG7M673D4F
+```
+
+---
+!! Backlinks
+
+* <$list filter="[backlinks[]limit[1]has[title]]" variable=ignore>

@@ -1,0 +1,14 @@
+created: 20240711094839704
+modified: 20240711095206457
+tags: Journal
+title: 11th July 2024
+
+!! Daily logs
+
+* 把tiddlyhost上的东西迁移到twks中
+* 之后的所有的对系统修改的东西，应该都以插件的形式修改
+* 跟soren bjorstad 的zettelkasten一样，应该对我所有的东西做一个整理跟说明
+* 整理今天学到的笔记
+** 计算机网络的五层基本模型
+** v2ray的基本原理
+** tiddlywiki的文本替换跟wikify过程
