@@ -1,0 +1,23 @@
+created: 20240715194644691
+modified: 20240715195018460
+tags: Python
+title: Python控制流工具/if
+type: text/vnd.tiddlywiki
+
+!! if语句的结构：
+
+```
+x = int(input("Please enter an integer: "))
+
+if x < 0:
+    x = 0
+    print('Negative changed to zero')
+elif x == 0:
+    print('Zero')
+elif x == 1:
+    print('Single')
+else:
+    print('More')
+```
+
+可以看出，关键字为:`if`，`elif`，`else`。如果是想与把一个值与多个常量比较，[[Python控制流工具/match]]。
