@@ -1,0 +1,10 @@
+{
+  "title": "$:/plugins/uzvg/ImageBasic",
+  "name": "ImageBasic",
+  "author": "uzvg",
+  "description": "Some Basic Image Macors for my personal use",
+  "plugin-type": "plugin",
+  "source": "https://github.com/uzvg/ImageBasic",
+  "version": "0.0.1",
+  "list": "readme license"
+}

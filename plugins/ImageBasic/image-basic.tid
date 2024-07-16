@@ -1,0 +1,11 @@
+created: 20240302022832278
+modified: 20240705121240088
+tags: $:/tags/Macro
+title: $:/uzvg/Macros/image-basic
+
+\define image-basic(img, width:"80%", align:"center", caption:"", tooltip:"", alt:"")
+<figure class="image-basic image-align-$align$" style="width:$width$;">
+  <$image source=<<__img__>> tooltip=<<__tooltip__>> alt=<<__alt__>> /> 
+  <figcaption>$caption$</figcaption>
+</figure> 
+\end

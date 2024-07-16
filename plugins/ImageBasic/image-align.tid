@@ -1,0 +1,32 @@
+created: 20240101153131750
+modified: 20240101161542477
+tags: $:/tags/Macro
+title: $:/uzvg/Macros/image-align
+
+\define .image-right(_)
+
+<div class=".image-right">
+    <img src="$_$" alt="Italian Trulli">
+</div>
+\end
+
+
+<style>
+        .image-right {
+            display: flex;
+            margin-left: 30px;
+            flex-direction: end;
+        }
+</style>
+
+让我们看一下效果怎么样，哈哈哈
+
+[img width="60%" class="image-right" [$:/blogsite/Images/CoverOfCoffeePicture]]
+
+让我们看一下效果怎么样，哈哈哈让我们看一下效果怎么样，哈
+
+[img width={{!!mywidth}} class=<<image-classes>> [Motovun Jack.jpg]]
+
+<img src="$:/blogsite/Images/CoverOfCoffeePicture" alt="Italian Trulli">
+
+<<.image-right $:/blogsite/Images/CoverOfCoffeePicture>>

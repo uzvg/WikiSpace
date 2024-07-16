@@ -1,0 +1,13 @@
+created: 20240302023527001
+modified: 20240302023906139
+tags: $:/tags/Stylesheet
+title: $:/uzvg/stylesheets/image-basic.css
+type: text/css
+
+.image-basic {
+  text-align: center;
+  font-style: normal;
+  font-size: smaller;
+  text-indent: 0;
+  padding: 0.5em;
+}

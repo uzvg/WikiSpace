@@ -1,0 +1,10 @@
+{
+  "title": "$:/plugins/uzvg/PublishCheckbox",
+  "name": "PublishCheckbox",
+  "author": "uzvg",
+  "description": "Add a line of checkbox to set tiddler publish whether or not.",
+  "plugin-type": "plugin",
+  "source": "https://github.com/uzvg/PublishCheckbox",
+  "version": "0.0.1",
+  "list": "readme license"
+}
