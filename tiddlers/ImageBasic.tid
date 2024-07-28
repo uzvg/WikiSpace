@@ -1,0 +1,8 @@
+caption: Insert a basic image.
+created: 20240718083503793
+modified: 20240718083552700
+tags: $:/tags/TextEditor/Snippet
+title: ImageBasic
+type: text/vnd.tiddlywiki
+
+<<image-basic >>

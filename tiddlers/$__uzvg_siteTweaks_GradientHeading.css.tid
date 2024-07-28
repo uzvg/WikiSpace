@@ -1,0 +1,19 @@
+created: 20231223062717847
+modified: 20240721200722627
+tags: $:/tags/Stylesheet
+title: $:/uzvg/siteTweaks/GradientHeading.css
+type: text/vnd.tiddlywiki
+
+/* 标题中使用江西拙楷字体*/
+h1, h2, h3, h4, h5, h6 {
+  /*font-family:'jiangxizhuokai';*/
+  font-family:'MiSans VF';
+}
+
+/*为大标题以外的标题添加渐近色下划线*/
+h1:not(.tc-site-title), h2:not(.tc-title), h3, h4, h5, h6 {
+  border-style: solid;
+  border-width: 0 0 2px 0;
+	border-image: linear-gradient(to right, <<color primary>>, rgba(0, 0, 0, 0)) 1;
+
+}

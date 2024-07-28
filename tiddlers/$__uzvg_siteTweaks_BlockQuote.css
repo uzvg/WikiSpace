@@ -1,0 +1,4 @@
+/* 引用块中使用有衬线字体*/
+blockquote > div {
+	font-family: 'Hangeuljaemin4.0';
+}

@@ -1,0 +1,9 @@
+RepoUrl: https://github.com/blackmatrix7/ios_rule_script
+created: 20240719075513418
+description: 各平台的分流规则、复写规则及自动化脚本。
+modified: 20240719075714584
+tags: website proxy
+title: RulesAndScript
+type: text/vnd.tiddlywiki
+
+[[clash分流规则]]

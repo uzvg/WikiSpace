@@ -1,0 +1,12 @@
+RepoUrl: https://gitee.com/dongzhongzhidong/chinese-free-web-font-storage
+created: 20240719074759633
+description: 一个收集免费可商用的 Web 字体文件 的 GitHub 项目！
+modified: 20240719075123258
+tags: website font
+title: 中文网字计划
+type: text/vnd.tiddlywiki
+url: https://chinese-font.netlify.app/
+
+| 网址 |{{!!url}}|
+| 仓库地址 |{{!!RepoUrl}}|
+| 描述 |{{!!description}}|
